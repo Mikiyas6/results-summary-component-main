@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="A single component taken from a webpage designed for testing people on their IQ"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./queries.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="section-result-and-summary">
+      <div class="result-and-summary container grid grid--col-2">
+        <div class="result-box">
+          <p class="result-heading">Your Result</p>
+          <div class="score-box">
+            <p class="score"><span>76</span> of 100</p>
+          </div>
+          <p class="result-remark">Great</p>
+          <p class="result-description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+        <div class="summary-box">
+          <p class="summary-heading">Summary</p>
+          <ul class="ul-list">
+            <li class="ul-list-item item--1">
+              <div class="icon-and-test-type">
+                <img
+                  src="./assets/images/icon-reaction.svg"
+                  alt="Lightning bolt icon to resemble reaction"
+                />
+                <span class="test-type test-type--1">Reaction</span>
+              </div>
+              <div class="summary-results">
+                <span class="test-result">80</span>
+                <span class="percent"> / 100</span>
+              </div>
+            </li>
+            <li class="ul-list-item item--2">
+              <div class="icon-and-test-type">
+                <img
+                  src="./assets/images/icon-memory.svg"
+                  alt="brain icon to resemble Memory"
+                />
+                <span class="test-type test-type--2">Memory</span>
+              </div>
+              <div class="summary-results">
+                <span class="test-result">92</span>
+                <span class="percent"> / 100</span>
+              </div>
+            </li>
+            <li class="ul-list-item item--3">
+              <div class="icon-and-test-type">
+                <img
+                  src="./assets/images/icon-verbal.svg"
+                  alt="chat icon to resemble Verbal"
+                />
+                <span class="test-type test-type--3">Verbal</span>
+              </div>
+              <div class="summary-results">
+                <span class="test-result">61</span>
+                <span class="percent"> / 100</span>
+              </div>
+            </li>
+            <li class="ul-list-item item--4">
+              <div class="icon-and-test-type">
+                <img
+                  src="./assets/images/icon-visual.svg"
+                  alt="eye icon to resemble Visual"
+                />
+                <span class="test-type test-type--4">Visual</span>
+              </div>
+              <div class="summary-results">
+                <span class="test-result">72</span>
+                <span class="percent"> / 100</span>
+              </div>
+            </li>
+          </ul>
+          <button class="btn btn--CTA btn--summary">Continue</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

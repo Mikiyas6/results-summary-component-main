@@ -18,3 +18,13 @@ Thanks for checking out this front-end coding challenge.
 
 - Solution URL: [Github-link](https://github.com/Mikiyas6/results-summary-component-main)
 - Live Site URL: [Page-link](https://mikiyas6.github.io/results-summary-component-main/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Desktop-first workflow
